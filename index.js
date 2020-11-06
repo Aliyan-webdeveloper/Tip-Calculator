@@ -25,8 +25,8 @@ function tipsCalculate() {
     //Formula
     tipper = Math.floor(amount * (tipPercentage / 100));
     totalBill = +tipper + +amount;
-    aoumntPerPerson = Math.floor(totalBill / person);
-    tipPerPerson =Math.floor(tipper /  person);
+    aoumntPerPerson = person==='0' ? totalBill : Math.floor(totalBill / person);
+    tipPerPerson = tipper==='0'||person==='0' ? '0' : tipper /  person;
 
 
     console.log('tipper',tipper)
@@ -38,6 +38,6 @@ function tipsCalculate() {
     document.getElementById("tp-person1").innerHTML = tipPerPerson;
 
 
-    rangevalue.innerHTML = tipPercentage + "%";
+    rangevalue.innerHTML = tipPercentage + " %";
     splitvalue.innerHTML = person;
 }

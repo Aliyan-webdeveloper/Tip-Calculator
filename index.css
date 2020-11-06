@@ -17,7 +17,7 @@ body{
     align-items:center;
     flex-direction: column;
     justify-content: space-between;
-    width:30%;
+    width:600px;
     height: 80vh;
     background-color: aliceblue;
     padding: 2%;
