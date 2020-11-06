@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(image/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* THIS IS MAIN CONTAINER  */
+#container{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-between;
+    width:30%;
+    height: 80vh;
+    background-color: aliceblue;
+    padding: 2%;
+}
+/* THIS IS THE FIRST BLOCK  */
+#first-block{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:80%;
+    height: 20%;
+    border-radius: 10px;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    height: 41%;
+    width: 91%;
+}
+.amount input{
+    padding: 5px;
+    width: 61%;
+    height: 50%;
+    margin-left: 8px;
+}
+/* this is the css of range */
+.range{
+    display: flex;
+    align-items: center;
+    height: 41%;
+    width: 91%;
+}
+#rangebar{
+    -webkit-appearance: none;
+    width: 62%;
+    height: 10px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+#rangebar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+#rangebar:focus{
+    outline: none;
+}
+/* THIS IS THE CSS OF SECOND BLOCK  */
+#second-block{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:80%;
+    height: 20%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+/* this is tipvalue  */
+#tipvalue{
+    display: flex;
+    align-items: center;
+    height: 41%;
+    width: 91%;
+    border-bottom: 2px solid black;
+}
+#total{
+    display: flex;
+    align-items: center;
+    height: 41%;
+    width: 91%;
+    border-bottom: 2px solid black;
+}
+/* THIS IS THE CSS OF THIRD BLOCK  */
+#third-block{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:80%;
+    height: 10%;
+    border-radius: 10px;
+}
+#split{
+
+    display: flex;
+    align-items: center;
+    height: 41%;
+    width: 91%;
+    border-bottom: 2px solid black;
+}
+#split span{
+    padding-bottom:25px;
+}
+
+/* THIS IS THE CSS OF FORTH BLOCK  */
+#forth-block{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:80%;
+    height: 20%;
+    border-radius: 10px;
+}
+#ap-person{
+    display: flex;
+    align-items: center;
+    height: 41%;
+    width: 91%;
+}
+#tp-person{
+    display: flex;
+    align-items: center;
+    height: 41%;
+    width: 91%;
+}
