@@ -84,12 +84,15 @@ body{
     padding-bottom: 10px;
 }
 /* this is tipvalue  */
-#tipvalue{
+#tipvalue1{
     display: flex;
     align-items: center;
     height: 41%;
     width: 91%;
     border-bottom: 2px solid black;
+}
+#tipvalue{
+    margin-left: 10px;
 }
 #total{
     display: flex;
@@ -97,6 +100,10 @@ body{
     height: 41%;
     width: 91%;
     border-bottom: 2px solid black;
+}
+#total1 {
+    margin-left: 10px;
+
 }
 /* THIS IS THE CSS OF THIRD BLOCK  */
 #third-block{
@@ -109,16 +116,30 @@ body{
     height: 10%;
     border-radius: 10px;
 }
-#split{
-
+.splitrange{
     display: flex;
     align-items: center;
     height: 41%;
     width: 91%;
-    border-bottom: 2px solid black;
 }
-#split span{
-    padding-bottom:25px;
+#splitbar{
+    -webkit-appearance: none;
+    width: 62%;
+    height: 10px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+#splitbar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+#splitbar:focus{
+    outline: none;
 }
 
 /* THIS IS THE CSS OF FORTH BLOCK  */
@@ -143,4 +164,10 @@ body{
     align-items: center;
     height: 41%;
     width: 91%;
+}
+#ap-person1{
+    margin-left: 10px;
+}
+#tp-person1{
+    margin-left: 10px;
 }

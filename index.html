@@ -14,8 +14,7 @@
       <!-- This is first-block -->
       <div id="first-block">
         <span class="amount"
-          >Amount: <input type="number" placeholder="Type your bill"
-        /></span>
+          >Amount: <input type="number" placeholder="Type your bill" id="amount-in"/></span>
         <div class="range">
           Select Tip:
           <input type="range" min="0%" max="100%" value="0" id="rangebar" />
@@ -24,16 +23,21 @@
       </div>
       <!-- This is second-block -->
       <div id="second-block">
-        <div id="tipvalue"><span>Tip</span></div>
-        <div id="total"><span>Total</span></div>
+        <div id="tipvalue1"><span>Tip:</span> <span id="tipvalue"></span></div>
+        <div id="total"><span>Total:</span><span id="total1"></span></div>
       </div>
       <!-- This is third-block -->
       <div id="third-block">
-        <div id="split"><span>Split</span></div>
+        <div class="splitrange">
+            Split:
+            <input type="range" min="0" max="100" value="0" id="splitbar" />
+            <p id="splitvalue"></p>
+          </div>
       </div>
+      <!-- THIS IS FORTH-BLOCK  -->
       <div id="forth-block">
-          <div id="ap-person"><span>Amount per person</span></div>
-          <div id="tp-person"><span>Tip per person</span></div>
+          <div id="ap-person"><span>Amount per person:</span> <span id="ap-person1"></span></div>
+          <div id="tp-person"><span>Tip per person:</span> <span id="tp-person1"></span></div>
       </div>
     </div>
     <script src="index.js"></script>
